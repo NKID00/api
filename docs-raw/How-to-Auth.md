@@ -89,7 +89,7 @@ POST https://bgm.tv/oauth/access_token
     "expires_in":604800,
     "token_type":"Bearer",
     "scope":null,
-    "refresh_token":"YOUR_REFRESH_TOKEN"
+    "refresh_token":"YOUR_REFRESH_TOKEN",
     "user_id" : USER_ID
 }
 ```
@@ -159,7 +159,7 @@ POST https://bgm.tv/oauth/token_status
 {
     "access_token":"YOUR_ACCESS_TOKEN",
     "client_id":"YOUR_CLIENT_ID",
-    "expires": 1520323182
+    "expires": 1520323182,
     "scope":null,
     "user_id" : USER_ID
 }
